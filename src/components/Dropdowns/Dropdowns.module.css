@@ -1,0 +1,20 @@
+.dropdown_container {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+
+  }
+  
+  .dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .dropdown:focus {
+    border-color: #0070f3;
+  }
+  

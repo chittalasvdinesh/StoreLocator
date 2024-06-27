@@ -1,0 +1,25 @@
+.store_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.store_list {
+    padding: 10px;
+}
+
+.map_container {
+    width: 40%;
+}
+
+.cards_container{
+    height: 400px;
+    color: white;
+    background: black;
+    overflow-y: auto;
+    padding: 10px;
+}
+.cards{
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+}

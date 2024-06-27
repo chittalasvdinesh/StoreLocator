@@ -1,0 +1,36 @@
+.modal_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+
+  
+}
+
+.modal_box{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+}
+
+.modal_box h2, .modal_box p{
+    margin-bottom: 10px;
+}
+.close_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
